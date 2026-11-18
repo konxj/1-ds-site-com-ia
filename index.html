@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexF1 | Engenharia & Telemetria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="logo-link" aria-label="ApexF1 Home">
+                <!-- Logo SVG estilo Fórmula 1 -->
+                <svg class="f1-svg" viewBox="0 0 180 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Asa / Traço Aerodinâmico Vermelho F1 -->
+                    <path d="M8 34L26 11H68L61 19H31L25 26H53L47 34H8Z" fill="#E10600"/>
+                    <path d="M74 11H88L70 34H56L74 11Z" fill="#E10600"/>
+                    <!-- Linha de Velocidade Ciano -->
+                    <path d="M4 38H82L79 41H2L4 38Z" fill="#00D2BE"/>
+                    <!-- Texto APEX -->
+                    <text x="92" y="25" fill="#FFFFFF" font-family="Orbitron, sans-serif" font-weight="900" font-size="18" letter-spacing="1.5">APEX</text>
+                    <text x="92" y="38" fill="#8E96A4" font-family="Orbitron, sans-serif" font-weight="600" font-size="9" letter-spacing="3">TELEMETRY</text>
+                </svg>
+            </a>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="ativo">Home</a></li>
+                <li><a href="#engenharia">Engenharia</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <span class="badge-tech">ANÁLISE TÉCNICA • TEMPORADA 2026</span>
+            <h2>O que exatamente compõe a F1?</h2>
+            <p class="subtitulo">Desvendando a aerodinâmica, telemetria e engenharia por trás dos carros mais rápidos do planeta.</p>
+        </section>
+
+        <section id="engenharia" class="noticias">
+            <article class="card">
+                <!-- Ilustração Técnica SVG de Aerodinâmica / Asa DRS -->
+                <div class="card-banner">
+                    <svg viewBox="0 0 400 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="400" height="160" fill="#0D1017"/>
+                        <!-- Grade de Túnel de Vento -->
+                        <path d="M0 40H400M0 80H400M0 120H400M80 0V160M160 0V160M240 0V160M320 0V160" stroke="#1E2433" stroke-width="1"/>
+                        <!-- Fluxo de Ar (Downforce / DRS) -->
+                        <path d="M30 55C120 55 180 35 370 30" stroke="#00D2BE" stroke-width="2" stroke-dasharray="6 4"/>
+                        <path d="M30 80C130 80 200 65 370 60" stroke="#00D2BE" stroke-width="2.5"/>
+                        <path d="M30 105C140 105 210 115 370 125" stroke="#E10600" stroke-width="2" stroke-dasharray="4 4"/>
+                        <!-- Perfil de Aerofólio -->
+                        <path d="M140 90C180 70 240 72 280 85C240 92 180 96 140 90Z" fill="#E10600"/>
+                        <path d="M210 62C240 50 270 52 295 60C270 65 240 67 210 62Z" fill="#FFFFFF"/>
+                        <text x="20" y="25" fill="#00D2BE" font-family="monospace" font-size="11">DRS STATUS: OPEN // DRAG -22%</text>
+                    </svg>
+                </div>
+
+                <div class="card-conteudo">
+                    <span class="tag-categoria">AERODINÂMICA</span>
+                    <h3>Variação de cada parte do carro: O papel do DRS</h3>
+                    <p>Na parte aerodinâmica, existem vários exemplos práticos, começando pelo caso de Jack Doohan: o piloto saía de uma reta com o DRS ativado rumo a uma curva de alta onde normalmente não se usa o freio. Como o sistema desarma na frenagem, o fluxo de ar não foi restabelecido a tempo...</p>
+                    
+                    <div class="card-rodape">
+                        <div class="botoes">
+                            <button type="button" title="Curtir artigo">👍 <span>Útil</span></button>
+                            <button type="button" title="Não curtir">👎</button>
+                        </div>
+                        <a href="noticia.html" class="btn-ler">Saiba mais →</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <p>Feito por: <strong>Pietro Gomes</strong> © 2026 • ApexF1 Telemetry</p>
+    </footer>
+</body>
+
+</html>
